@@ -1,7 +1,7 @@
 def drone_function():
 	while True:
 		plant(Entities.Bush)
-		use_item(Items.Weird_Substance, get_world_size())
+		use_item(Items.Weird_Substance, get_world_size() * 16)
 		direction = 0
 		corect = 0
 		while corect == 0:
@@ -30,7 +30,7 @@ def drone_function():
 				harvest()
 while True:
 	plant(Entities.Bush)
-	use_item(Items.Weird_Substance, get_world_size())
+	use_item(Items.Weird_Substance, get_world_size() * 16)
 	corect = 0
 	direction = 0
 	while corect == 0:

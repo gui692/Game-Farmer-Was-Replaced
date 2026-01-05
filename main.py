@@ -20,7 +20,7 @@ def drown_harvest_tree():
 						if get_water() < 0.1:
 							use_item(Items.Water)
 						if i == 1 and n % 3 == 1:
-							use_item(Items.Fertilizer)
+							use_item(Items.Weird_Substance)
 					move(North)
 				move(East)
 			for i in range(2):
